@@ -9,7 +9,7 @@ const Join = () => {
 
     return (
         <div className="joinOuterContainer">
-            <div className="joinInnerContainer">
+            <form className="joinInnerContainer">
                 <h1 className="heading">Join</h1>
                 <div>
                     <input
@@ -35,7 +35,7 @@ const Join = () => {
                         Sign In
                     </button>
                 </Link>
-            </div>
+            </form>
         </div>
     );
 };
